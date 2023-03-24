@@ -1,0 +1,119 @@
+@media (min-width: 320px) {
+    .formContainer {
+        width: 100%;
+        height: 25.625rem;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5rem 1.5rem;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .fieldsetDescription {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: .25rem;
+        border: 0;
+    }
+
+    .fieldsetDescription>label {
+        width: 100%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: .75rem;
+        line-height: 1.375rem;
+        color: var(--gray-4);
+    }
+
+    .fieldsetDescription>input {
+        width: 100%;
+        color: #868E96;
+        font-style: normal;
+        font-size: 1rem;
+        line-height: 1.375rem;
+        background: var(--gray-1);
+        border: 2px solid var(--gray-1);
+        border-radius: 8px;
+        padding: .75rem 1rem;
+    }
+
+    .fieldsetDescription>small {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #868E96;
+    }
+
+    .fieldsetValue {
+        margin-top: .5rem;
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        border: 0;
+    }
+
+    .fieldsetValue>label {
+        width: 100%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: .75rem;
+        line-height: 1.375rem;
+        color: #212529;
+    }
+
+    .fieldsetValue>input {
+        width: 100%;
+        padding: .75rem 1rem;
+        background: #F8F9FA;
+        font-size: 1rem;
+        border: 2px solid #F8F9FA;
+        border-radius: 8px;
+        color: #868E96
+    }
+
+    .fieldsetValue>input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+
+    .fieldsetValue>select {
+        color: var(--gray-4);
+        font-size: 1rem;
+        padding: .75rem 1rem;
+        background-color: #F8F9FA;
+        border: 2px solid #F8F9FA;
+        border-radius: 8px;
+        color: #868E96
+    }
+
+    .selectOption{
+        width: 128px;
+        height: 35px;
+        background: var(--gray-1)
+    }
+    .selectOption:hover{
+        background: var(--gray-2)
+    }
+
+    .formButton {
+        width: 100%;
+        height: 3rem;
+        background-color: var(--color-primary);
+    }
+
+    .formButton:hover {
+        background-color: var(--color-primary-hover);
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .formContainer {
+        width: 90%;
+    }
+}
